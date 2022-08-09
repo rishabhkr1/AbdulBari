@@ -15,6 +15,6 @@ int main()
   cout<<"Enter element which you want to search :";
 	int x;
   cin>>x;
-  	int result = search(arr,x);
+  search(arr,x);
 	
 }
