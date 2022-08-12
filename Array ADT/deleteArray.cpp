@@ -18,7 +18,7 @@ public:
     }
     void display()
     {
-        for (int i = 0; i < length; i++)
+        for (int i = 0;i < length;i++)
         {
             cout << A[i];
         }
@@ -48,16 +48,14 @@ int main()
 {
     Delete dele(5);
     int index;
-
     int a[5];
-    cout<<"Enter the Value of array : ";
+    cout<<"Enter the Value of array at index : ";
     for (int i = 0; i < 5; i++)
     {
-        
+
         cin>>a[i];
         dele.input(a[i], i);
     }
-
     cout<<"Enter the index you want to delete";
     cin>>index;
 
