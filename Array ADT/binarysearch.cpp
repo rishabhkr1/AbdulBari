@@ -1,3 +1,5 @@
+    //1st Method
+
 // #include<iostream>
 // using namespace std;
 // int binary(int A[],int l,int h,int key)
@@ -25,6 +27,9 @@
 //     cout<<binary(A,l,h,key);
 //     return 0;
 // }
+
+    //2nd Method
+
 #include<iostream>
 using namespace std;
 int binary(int A[],int l,int h,int key)
@@ -35,11 +40,13 @@ while(l<=h){
     {
         return mid;
     }
-    else if(key>=mid){
+    else if(key>=A[mid])
+    {
         l=mid+1;
     }
-    else{
-        h=mid+1;
+    else
+    {
+        h=mid-1;
     }
 }
 return -1;
