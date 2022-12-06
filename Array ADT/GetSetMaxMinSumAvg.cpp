@@ -34,7 +34,7 @@ void Array::display()
 {
     for (int i = 0; i < length; i++)
     {
-        cout <<"Elements are "<< A[i] << ",";
+        cout << A[i] << ",";
     }
 }
 
